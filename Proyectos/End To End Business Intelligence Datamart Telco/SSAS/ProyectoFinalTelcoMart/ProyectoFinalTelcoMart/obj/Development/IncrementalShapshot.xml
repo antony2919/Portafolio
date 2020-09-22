@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ProyectoFinalTelcoMart</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>4Nu0a3jjQxiscpsOQ7x8uF2EjXo=22/09/2020 11:54:2922/09/2020 9:38:24</TimeStamp>
+        <ID>
+          <String>TelcoMart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>oDbDaS2Om0IaE8BJZTPt7/8EyzQ=29/03/2019 14:50:2922/09/2020 9:38:24</TimeStamp>
+        <ID>
+          <String>TelcoMartDSViews</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rZ2nTxGw5iDhnojB5q7WGHc6vaw=29/03/2019 15:13:5122/09/2020 9:38:24</TimeStamp>
+        <ID>
+          <String>Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>alyW5LZmqM1TDs2hjCZX6f31UB8=29/03/2019 15:13:5122/09/2020 9:38:24</TimeStamp>
+        <ID>
+          <String>Equipo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KsjjkAnuK8zuptu72kpghldwVH0=29/03/2019 15:13:5122/09/2020 9:38:24</TimeStamp>
+        <ID>
+          <String>Operador</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BwXY+hjWtm2hhkFGhhpC/cn2/7Q=29/03/2019 15:13:5122/09/2020 9:38:24</TimeStamp>
+        <ID>
+          <String>Plan</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>N3jUk/Sa+C9+SUHlzd8VWKFAeFM=29/03/2019 16:18:1322/09/2020 9:38:24</TimeStamp>
+        <ID>
+          <String>Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qwm6QLu8GsJmb/sajj/5QsA9+8c=29/03/2019 15:44:2922/09/2020 9:38:24</TimeStamp>
+        <ID>
+          <String>Vendedor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UF/pqGp3OAY8LDQrtn1vLckvSEU=29/03/2019 17:36:1422/09/2020 9:38:24</TimeStamp>
+        <ID>
+          <String>Fac Activaciones</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>bHAjG4DUN7eJnAOOtEJgMgTVCEU=22/09/2020 12:27:1722/09/2020 9:38:24q3mbAP7Tm8Lf1AaWudaAhx0fQ6I=29/03/2019 16:37:4622/09/2020 9:38:24</TimeStamp>
+        <ID>
+          <String>Activaciones</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>R29zB6uda1BcaXYg2thI1ZpgKmU=29/03/2019 14:48:1422/09/2020 9:38:24</TimeStamp>
+      <ID>
+        <String>ProyectoFinalTelcoMart</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-09-22T17:27:19.25Z</LastDeployed>
+</DeploymentSnapshot>
