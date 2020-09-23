@@ -1,0 +1,7 @@
+Spark core: 
+Es el motor base para el procesamiento de  datos distribuidos y paralelos de scala grande .
+
+Responsable de 
+Gestionar la memoria y la recuperacion de fallas
+Programar, distribuir y monitorear jobs en un cluster
+Interactuar con otros sistemas de archivos

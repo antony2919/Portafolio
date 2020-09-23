@@ -1,0 +1,31 @@
+
+*Dataset: 
+Coleccion de datos distribuido que tienen una estructura
+desde spark 1.6
+tiene los beneficios del rdd
+Tiene API para Java y Scala (Python trabaja con Dataframes)
+
+
+*Dataframe: Dataset organizado en columnas
+
+3 tipos de APIs para Spark (RDD vs Dataframe, Datasets)
+*RDD
+- Tipo Seguro
+-Ofrece Control y flexibilidad
+-API Low level API
+- Desarrolladores tienen que tener cuidado de optimizaciones
+- No es tan bueno como los datasets en rendimiento
+-Fomenta el how-to
+¿Cuando usar RDDS?
+API de bajo nivel y control de dataset
+Trataras con  datos no estrucutrados (media streams or texts)
+Manipularas datos con lambda functions que DSL
+No te importa el esaquema o estructura del datos
+*DATAFRAME
+- No es un tipo seguro0
+- Autooptimizado
+- Mejor rendimiento
+- Mas eficiencia de memoria
+------------
+Spark Session
+Similar al Spark
